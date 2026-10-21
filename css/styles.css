@@ -529,7 +529,7 @@ main > section{ position: relative; }
   border-image: repeating-linear-gradient(-45deg, var(--blue) 0 10px, var(--paper) 10px 16px, var(--orange) 16px 26px, var(--paper) 26px 32px) 7;
 }
 .letter-msg{ padding-right: 18px; border-right: 2px dashed color-mix(in srgb, var(--deep) 55%, transparent); }
-.letter-msg p{ margin: 4px 0 10px; font-family: var(--font-hand); font-weight: 500; font-size: 25px; line-height: 1.15; color: var(--brown); }
+.letter-msg p{ white-space: pre-line; margin: 4px 0 10px; font-family: var(--font-hand); font-weight: 500; font-size: 25px; line-height: 1.15; color: var(--brown); }
 .letter-sign{ font-family: var(--font-hand); font-weight: 700; font-size: 27px; color: var(--blue); }
 .letter-side{ position: relative; padding-left: 16px; display:flex; flex-direction:column; justify-content:flex-end; min-height: 170px; }
 .letter .stamp{ position: absolute; top: -4px; right: 0; width: 70px; transform: rotate(4deg); }
